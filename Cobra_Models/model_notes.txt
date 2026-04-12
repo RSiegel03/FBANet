@@ -1,0 +1,72 @@
+Table of Contents:
+# special gprs on 1 reaction
+1a- single GPRs (all)
+1b- AND GPRs (1 reaction)
+1c- OR GPRs (1 reaction)
+1d- Combined OR then AND GPRs (1 reaction)
+
+# gprs on 2 reactions (unrelated/Parallel)
+2a- 2 Parallel AND GPRs
+2b- 2 Parallel OR GPRs
+2b- 1 AND GPR and 1 OR GPR
+
+# gprs on 2 reactions (related/serial/sequential)
+3a - 2 sequential AND GPRs
+3b - 2 sequential OR GPRs
+3c - 1 AND GPR then 1 OR GPR
+
+# seperate parallel, sequential gprs
+4a - 2 parallel (2 sequential AND GPRS)
+4b - 2 parallel (2 sequential OR GPRS)
+4c - 2 parallel (1 sequential AND 1 sequential OR GPRS)
+
+
+######################
+Model 1a:
+Take in A to make bio
+Take in B to make bio
+
+A transport: gene 1
+B transport: gene 2
+A to bio rxn: gene 3
+B to bio rxn: gene 4
+
+#######################
+Model 1b:
+Take in A to make bio
+Take in B to make bio
+
+A transport: gene 1
+B transport: gene 2
+A to bio rxn: gene 3 and gene 4
+B to bio rxn: gene 5
+
+########################
+Model 1c:
+Take in A to make bio
+Take in B to make bio
+
+A transport: gene 1
+B transport: gene 2
+A to bio rxn: gene 3 or gene 4
+B to bio rxn: gene 5
+
+########################
+Model 1d:
+Take in A to make bio
+Take in B to make bio
+
+A transport: gene 1
+B transport: gene 2
+A to bio rxn: (gene 3 or gene 4) and gene 5
+B to bio rxn: gene 6
+
+########################
+Model 2a:
+Take in A to make bio
+Take in B to make bio
+
+A transport: gene 1
+B transport: gene 2
+A to bio rxn: gene 3 or gene 4
+B to bio rxn: gene 5
