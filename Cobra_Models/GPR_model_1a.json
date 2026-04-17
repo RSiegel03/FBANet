@@ -67,7 +67,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"G3"
+"gene_reaction_rule":"G3 and G4"
 },
 {
 "id":"BtoPrebio(c)",
@@ -78,7 +78,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"G4"
+"gene_reaction_rule":"G5 or G6"
 },
 {
 "id":"bio1(c)",
@@ -107,7 +107,9 @@
 {"id":"G1","name":"Gene 1 A Transport"},
 {"id":"G2","name":"Gene 2 B Transport"},
 {"id":"G3","name":"Gene 3 A to Prebiomass"},
-{"id":"G4","name":"Gene 4 B to Prebiomass"}
+{"id":"G4","name":"Gene 4 A to Prebiomass"},
+{"id":"G5","name":"Gene 5 B to Prebiomass"},
+{"id":"G6","name":"Gene 6 B to Prebiomass"}
 ],
 "id":"GPR_model_1",
 "compartments":{
